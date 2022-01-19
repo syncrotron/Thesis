@@ -1,0 +1,127 @@
+2021-09-29 09:41:30,646 —  INFO — loading category: CFP-CK1
+2021-09-29 09:41:36,720 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-09-29 09:41:36,723 —  INFO — loading category: CFP-CK2
+2021-09-29 09:41:43,132 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-09-29 09:41:43,133 —  INFO — loading category: CFP-CK3
+2021-09-29 09:41:46,338 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-09-29 09:41:46,339 —  INFO — loading category: CFP-CK4
+2021-09-29 09:41:50,464 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-09-29 09:41:50,464 —  INFO — loading category: CFP-B179-A
+2021-09-29 09:41:54,321 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-09-29 09:41:54,322 —  INFO — loading category: CFP-B179-B
+2021-09-29 09:42:04,223 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-09-29 09:42:04,224 —  INFO — loading category: CFP-B223-A
+2021-09-29 09:42:06,096 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-09-29 09:42:06,097 —  INFO — loading category: CFP-B223-B
+2021-09-29 09:42:17,066 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-09-29 09:49:26,386 —  INFO — loading category: CFP-CK1
+2021-09-29 09:49:32,150 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-09-29 09:49:45,293 —  INFO — loading category: CFP-CK1
+2021-09-29 09:49:51,086 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-09-29 09:49:51,087 —  INFO — loading category: CFP-CK2
+2021-09-29 09:49:57,558 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-09-29 09:49:57,559 —  INFO — loading category: CFP-CK3
+2021-09-29 09:50:00,790 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-09-29 09:50:00,790 —  INFO — loading category: CFP-CK4
+2021-09-29 09:50:04,957 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-09-29 09:50:04,958 —  INFO — loading category: CFP-B179-A
+2021-09-29 09:50:08,885 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-09-29 09:50:08,886 —  INFO — loading category: CFP-B179-B
+2021-09-29 09:50:18,825 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-09-29 09:50:18,826 —  INFO — loading category: CFP-B223-A
+2021-09-29 09:50:20,706 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-09-29 09:50:20,707 —  INFO — loading category: CFP-B223-B
+2021-09-29 09:50:31,731 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-09-29 09:50:31,732 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-09-29 09:50:31,733 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-09-29 09:50:31,733 —  INFO — Total Number Of Images Found: 345
+2021-09-29 11:10:06,266 —  INFO — ======= Start Of Data Split =======
+2021-09-29 11:10:06,284 —  INFO — Durum Splitted Successfully
+2021-09-29 11:10:06,293 —  INFO — Bread Splitted Successfully
+2021-09-29 11:10:06,318 —  INFO — Complete Splitted Successfully
+2021-09-29 11:10:06,343 —  INFO — Test Splitted Successfully
+2021-09-29 11:10:06,344 —  INFO — ======= End Of Data Split =======
+
+2021-09-29 11:10:17,349 —  INFO — ======= Start Of Logistic Regression Model Generation =======
+2021-09-29 11:10:17,350 —  INFO — Starting to train LogR model...
+2021-09-29 11:10:38,979 —  INFO — The Durum model trained in: 21.627986669540405 seconds
+2021-09-29 11:10:38,981 —  INFO — Starting to train LogR model...
+2021-09-29 11:10:52,014 —  INFO — The Bread model trained in: 13.031014442443848 seconds
+2021-09-29 11:10:52,015 —  INFO — Starting to train LogR model...
+2021-09-29 11:11:23,190 —  INFO — The Complete model trained in: 31.173668384552002 seconds
+2021-09-29 11:11:23,200 —  INFO — ======= Start Of SVM Model Generation =======
+2021-09-29 11:11:23,202 —  INFO — Starting to train SVM model...
+2021-09-29 11:11:35,064 —  INFO — The Durum model trained in: 11.861797332763672 seconds
+2021-09-29 11:11:35,065 —  INFO — Starting to train SVM model...
+2021-09-29 11:11:41,625 —  INFO — The Bread model trained in: 6.559292793273926 seconds
+2021-09-29 11:11:41,627 —  INFO — Starting to train SVM model...
+2021-09-29 11:12:03,561 —  INFO — The Complete model trained in: 21.93352437019348 seconds
+2021-09-29 11:12:03,568 —  INFO — ======= Start Of K Nearest Neighbors Model Generation =======
+2021-09-29 11:12:03,569 —  INFO — Starting to train KNN model...
+2021-09-29 11:12:04,858 —  INFO — The Durum model trained in: 1.2886042594909668 seconds
+2021-09-29 11:12:04,859 —  INFO — Starting to train KNN model...
+2021-09-29 11:12:05,953 —  INFO — The Bread model trained in: 1.0935430526733398 seconds
+2021-09-29 11:12:05,953 —  INFO — Starting to train KNN model...
+2021-09-29 11:12:07,080 —  INFO — The Complete model trained in: 1.1266076564788818 seconds
+2021-09-29 11:12:07,086 —  INFO — ======= Start Of Random Forest Model Generation =======
+2021-09-29 11:12:07,087 —  INFO — Starting to train RanF model...
+2021-09-29 11:12:08,764 —  INFO — The Durum model trained in: 1.6764934062957764 seconds
+2021-09-29 11:12:08,766 —  INFO — Starting to train RanF model...
+2021-09-29 11:12:10,203 —  INFO — The Bread model trained in: 1.4364335536956787 seconds
+2021-09-29 11:12:10,204 —  INFO — Starting to train RanF model...
+2021-09-29 11:12:12,345 —  INFO — The Complete model trained in: 2.140890121459961 seconds
+2021-09-29 14:51:01,909 —  INFO — loading category: CFP-CK1
+2021-09-29 14:51:08,052 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-09-29 14:51:08,053 —  INFO — loading category: CFP-CK2
+2021-09-29 14:51:14,813 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-09-29 14:51:14,814 —  INFO — loading category: CFP-CK3
+2021-09-29 14:51:18,148 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-09-29 14:51:18,148 —  INFO — loading category: CFP-CK4
+2021-09-29 14:51:22,490 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-09-29 14:51:22,492 —  INFO — loading category: CFP-B179-A
+2021-09-29 14:51:26,509 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-09-29 14:51:26,510 —  INFO — loading category: CFP-B179-B
+2021-09-29 14:51:36,607 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-09-29 14:51:36,608 —  INFO — loading category: CFP-B223-A
+2021-09-29 14:51:38,485 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-09-29 14:51:38,486 —  INFO — loading category: CFP-B223-B
+2021-09-29 14:51:49,631 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-09-29 14:51:49,632 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-09-29 14:51:49,633 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-09-29 14:51:49,633 —  INFO — Total Number Of Images Found: 345
+2021-09-29 14:51:49,977 —  INFO — ======= Start Of Data Split =======
+2021-09-29 14:51:49,994 —  INFO — Durum Splitted Successfully
+2021-09-29 14:51:50,005 —  INFO — Bread Splitted Successfully
+2021-09-29 14:51:50,030 —  INFO — Complete Splitted Successfully
+2021-09-29 14:51:50,056 —  INFO — Test Splitted Successfully
+2021-09-29 14:51:50,057 —  INFO — ======= End Of Data Split =======
+
+2021-09-29 14:51:50,136 —  INFO — ======= Start Of Logistic Regression Model Generation =======
+2021-09-29 14:51:50,137 —  INFO — Starting to train LogR model...
+2021-09-29 14:52:09,985 —  INFO — The Durum model trained in: 19.84779977798462 seconds
+2021-09-29 14:52:09,988 —  INFO — Starting to train LogR model...
+2021-09-29 14:52:23,429 —  INFO — The Bread model trained in: 13.439955711364746 seconds
+2021-09-29 14:52:23,431 —  INFO — Starting to train LogR model...
+2021-09-29 14:52:53,993 —  INFO — The Complete model trained in: 30.5612051486969 seconds
+2021-09-29 14:52:54,060 —  INFO — ======= Start Of SVM Model Generation =======
+2021-09-29 14:52:54,062 —  INFO — Starting to train SVM model...
+2021-09-29 14:53:05,800 —  INFO — The Durum model trained in: 11.737530946731567 seconds
+2021-09-29 14:53:05,802 —  INFO — Starting to train SVM model...
+2021-09-29 14:53:12,365 —  INFO — The Bread model trained in: 6.562197685241699 seconds
+2021-09-29 14:53:12,366 —  INFO — Starting to train SVM model...
+2021-09-29 14:53:34,337 —  INFO — The Complete model trained in: 21.97042965888977 seconds
+2021-09-29 14:53:34,390 —  INFO — ======= Start Of K Nearest Neighbors Model Generation =======
+2021-09-29 14:53:34,391 —  INFO — Starting to train KNN model...
+2021-09-29 14:53:35,714 —  INFO — The Durum model trained in: 1.3222694396972656 seconds
+2021-09-29 14:53:35,715 —  INFO — Starting to train KNN model...
+2021-09-29 14:53:36,929 —  INFO — The Bread model trained in: 1.2134485244750977 seconds
+2021-09-29 14:53:36,930 —  INFO — Starting to train KNN model...
+2021-09-29 14:53:38,126 —  INFO — The Complete model trained in: 1.195768117904663 seconds
+2021-09-29 14:53:38,158 —  INFO — ======= Start Of Random Forest Model Generation =======
+2021-09-29 14:53:38,159 —  INFO — Starting to train RanF model...
+2021-09-29 14:53:39,985 —  INFO — The Durum model trained in: 1.8258700370788574 seconds
+2021-09-29 14:53:39,987 —  INFO — Starting to train RanF model...
+2021-09-29 14:53:41,520 —  INFO — The Bread model trained in: 1.5326669216156006 seconds
+2021-09-29 14:53:41,520 —  INFO — Starting to train RanF model...
+2021-09-29 14:53:43,523 —  INFO — The Complete model trained in: 2.00228214263916 seconds
+2021-09-29 14:53:43,590 —  INFO — ======= Start Of Naive Bayes Generation =======

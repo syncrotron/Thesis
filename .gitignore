@@ -132,3 +132,18 @@ dmypy.json
 # custom
 data/
 commands.sh
+*.output
+*.png
+*.jpg
+*.JPG
+*.NEF
+*.tar.gz
+*.csv
+*.xlsx
+*.txt
+*.nwk
+*.gff
+*.xml
+*.zip
+*.npy
+*.pkl

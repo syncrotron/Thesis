@@ -1,0 +1,61 @@
+2021-10-07 16:17:52,828 —  INFO — loading category: CFP-CK1
+2021-10-07 16:17:58,661 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-10-07 16:17:58,664 —  INFO — loading category: CFP-CK2
+2021-10-07 16:18:05,100 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-10-07 16:18:05,102 —  INFO — loading category: CFP-CK3
+2021-10-07 16:18:08,315 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-10-07 16:18:08,315 —  INFO — loading category: CFP-CK4
+2021-10-07 16:18:12,481 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-10-07 16:18:12,483 —  INFO — loading category: CFP-B179-A
+2021-10-07 16:18:16,375 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-10-07 16:18:16,376 —  INFO — loading category: CFP-B179-B
+2021-10-07 16:18:26,252 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-10-07 16:18:26,254 —  INFO — loading category: CFP-B223-A
+2021-10-07 16:18:28,127 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-10-07 16:18:28,127 —  INFO — loading category: CFP-B223-B
+2021-10-07 16:18:39,104 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-10-07 16:18:39,105 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-10-07 16:18:39,106 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-10-07 16:18:39,106 —  INFO — Total Number Of Images Found: 345
+2021-10-07 16:18:39,160 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-07 16:18:39,259 —  INFO — Completed data augmentation for durum wheat datasets. Added (55)images.
+2021-10-07 16:18:39,260 —  INFO — Starting data augmentation for bread wheat datasets
+2021-10-07 16:18:39,422 —  INFO — Completed data augmentation for bread wheat datasets. Added (91)images.
+2021-10-07 16:18:39,426 —  INFO — Flattening images...
+2021-10-07 16:18:39,606 —  INFO — Image flattening complete!
+2021-10-07 16:18:39,912 —  INFO — ======= Start Of Data Split =======
+2021-10-07 16:18:39,942 —  INFO — Durum Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-07 16:18:39,970 —  INFO — Bread Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-07 16:18:39,998 —  INFO — Complete Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-07 16:18:39,999 —  INFO — Test Splitted Successfully
+2021-10-07 16:18:39,999 —  INFO — ======= End Of Data Split =======
+
+2021-10-07 16:18:40,015 —  INFO — ======= Start Of Logistic Regression Model Generation =======
+2021-10-07 16:18:40,016 —  INFO — Starting to train LogR model...
+2021-10-07 16:19:00,597 —  INFO — The Durum model trained in: 20.580508708953857 seconds
+2021-10-07 16:19:00,601 —  INFO — Starting to train LogR model...
+2021-10-07 16:19:31,196 —  INFO — The Bread model trained in: 30.594319581985474 seconds
+2021-10-07 16:19:31,199 —  INFO — Starting to train LogR model...
+2021-10-07 16:20:02,066 —  INFO — The Complete model trained in: 30.866342544555664 seconds
+2021-10-07 16:20:02,075 —  INFO — ======= Start Of SVM Model Generation =======
+2021-10-07 16:20:02,076 —  INFO — Starting to train SVM model...
+2021-10-07 16:20:26,038 —  INFO — The Durum model trained in: 23.961287021636963 seconds
+2021-10-07 16:20:26,040 —  INFO — Starting to train SVM model...
+2021-10-07 16:20:47,201 —  INFO — The Bread model trained in: 21.160508394241333 seconds
+2021-10-07 16:20:47,203 —  INFO — Starting to train SVM model...
+2021-10-07 16:21:09,332 —  INFO — The Complete model trained in: 22.12779664993286 seconds
+2021-10-07 16:21:09,341 —  INFO — ======= Start Of K Nearest Neighbors Model Generation =======
+2021-10-07 16:21:09,342 —  INFO — Starting to train KNN model...
+2021-10-07 16:21:10,634 —  INFO — The Durum model trained in: 1.2915141582489014 seconds
+2021-10-07 16:21:10,635 —  INFO — Starting to train KNN model...
+2021-10-07 16:21:11,772 —  INFO — The Bread model trained in: 1.1363308429718018 seconds
+2021-10-07 16:21:11,774 —  INFO — Starting to train KNN model...
+2021-10-07 16:21:12,900 —  INFO — The Complete model trained in: 1.1257081031799316 seconds
+2021-10-07 16:21:12,906 —  INFO — ======= Start Of Random Forest Model Generation =======
+2021-10-07 16:21:12,907 —  INFO — Starting to train RanF model...
+2021-10-07 16:21:15,349 —  INFO — The Durum model trained in: 2.4412834644317627 seconds
+2021-10-07 16:21:15,350 —  INFO — Starting to train RanF model...
+2021-10-07 16:21:17,426 —  INFO — The Bread model trained in: 2.076355218887329 seconds
+2021-10-07 16:21:17,427 —  INFO — Starting to train RanF model...
+2021-10-07 16:21:19,394 —  INFO — The Complete model trained in: 1.9666073322296143 seconds
+2021-10-07 16:21:19,398 —  INFO — ======= Start Of Naive Bayes Generation =======

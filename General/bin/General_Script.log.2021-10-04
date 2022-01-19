@@ -1,0 +1,610 @@
+2021-10-04 10:31:48,597 —  INFO — loading category: CFP-CK1
+2021-10-04 10:31:54,455 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-10-04 10:31:54,456 —  INFO — loading category: CFP-CK2
+2021-10-04 10:32:00,930 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-10-04 10:32:00,932 —  INFO — loading category: CFP-CK3
+2021-10-04 10:32:04,148 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-10-04 10:32:04,149 —  INFO — loading category: CFP-CK4
+2021-10-04 10:32:08,329 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-10-04 10:32:08,330 —  INFO — loading category: CFP-B179-A
+2021-10-04 10:32:12,242 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-10-04 10:32:12,243 —  INFO — loading category: CFP-B179-B
+2021-10-04 10:32:22,178 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-10-04 10:32:22,179 —  INFO — loading category: CFP-B223-A
+2021-10-04 10:32:24,057 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-10-04 10:32:24,058 —  INFO — loading category: CFP-B223-B
+2021-10-04 10:32:35,085 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-10-04 10:32:35,087 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-10-04 10:32:35,088 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-10-04 10:32:35,088 —  INFO — Total Number Of Images Found: 345
+2021-10-04 10:32:35,387 —  INFO — ======= Start Of Data Split =======
+2021-10-04 10:32:35,405 —  INFO — Durum Splitted Successfully
+2021-10-04 10:32:35,415 —  INFO — Bread Splitted Successfully
+2021-10-04 10:32:35,441 —  INFO — Complete Splitted Successfully
+2021-10-04 10:32:35,466 —  INFO — Test Splitted Successfully
+2021-10-04 10:32:35,467 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 10:32:35,484 —  INFO — ======= Start Of Logistic Regression Model Generation =======
+2021-10-04 10:32:35,485 —  INFO — Starting to train LogR model...
+2021-10-04 10:32:55,623 —  INFO — The Durum model trained in: 20.13727641105652 seconds
+2021-10-04 10:32:55,627 —  INFO — Starting to train LogR model...
+2021-10-04 10:33:08,986 —  INFO — The Bread model trained in: 13.358548641204834 seconds
+2021-10-04 10:33:08,987 —  INFO — Starting to train LogR model...
+2021-10-04 10:33:39,185 —  INFO — The Complete model trained in: 30.196847200393677 seconds
+2021-10-04 10:33:39,194 —  INFO — ======= Start Of SVM Model Generation =======
+2021-10-04 10:33:39,196 —  INFO — Starting to train SVM model...
+2021-10-04 10:33:50,963 —  INFO — The Durum model trained in: 11.765736103057861 seconds
+2021-10-04 10:33:50,966 —  INFO — Starting to train SVM model...
+2021-10-04 10:33:57,512 —  INFO — The Bread model trained in: 6.545748472213745 seconds
+2021-10-04 10:33:57,514 —  INFO — Starting to train SVM model...
+2021-10-04 10:34:18,991 —  INFO — The Complete model trained in: 21.476179122924805 seconds
+2021-10-04 10:34:18,998 —  INFO — ======= Start Of K Nearest Neighbors Model Generation =======
+2021-10-04 10:34:19,000 —  INFO — Starting to train KNN model...
+2021-10-04 10:34:20,237 —  INFO — The Durum model trained in: 1.237309217453003 seconds
+2021-10-04 10:34:20,239 —  INFO — Starting to train KNN model...
+2021-10-04 10:34:21,329 —  INFO — The Bread model trained in: 1.0900344848632812 seconds
+2021-10-04 10:34:21,330 —  INFO — Starting to train KNN model...
+2021-10-04 10:34:22,494 —  INFO — The Complete model trained in: 1.1630582809448242 seconds
+2021-10-04 10:34:22,501 —  INFO — ======= Start Of Random Forest Model Generation =======
+2021-10-04 10:34:22,502 —  INFO — Starting to train RanF model...
+2021-10-04 10:34:24,258 —  INFO — The Durum model trained in: 1.7549805641174316 seconds
+2021-10-04 10:34:24,259 —  INFO — Starting to train RanF model...
+2021-10-04 10:34:25,670 —  INFO — The Bread model trained in: 1.4107203483581543 seconds
+2021-10-04 10:34:25,672 —  INFO — Starting to train RanF model...
+2021-10-04 10:34:27,831 —  INFO — The Complete model trained in: 2.159034252166748 seconds
+2021-10-04 11:39:14,388 —  INFO — ======= Start Of Data Split =======
+2021-10-04 11:39:14,407 —  INFO — Durum Splitted Successfully. Training Set Length = 72, Test Set Length = 80    1
+23    0
+77    1
+57    1
+32    0
+64    1
+69    1
+31    0
+68    1
+65    1
+60    1
+88    1
+24    0
+41    0
+37    0
+19    0
+40    0
+20    0
+47    1
+Name: Target, dtype: int64
+2021-10-04 11:39:14,416 —  INFO — Bread Splitted Successfully. Training Set Length = 44, Test Set Length = 11    0
+30    1
+29    1
+49    1
+23    0
+22    0
+5     0
+20    0
+41    1
+54    1
+44    1
+Name: Target, dtype: int64
+2021-10-04 11:39:14,442 —  INFO — Complete Splitted Successfully. Training Set Length = 116, Test Set Length = 120    1
+88     1
+102    0
+140    1
+137    1
+145    1
+103    0
+101    0
+32     0
+19     0
+45     1
+37     0
+81     1
+105    0
+24     0
+66     1
+111    0
+92     0
+104    0
+123    1
+77     1
+73     1
+90     1
+74     1
+39     0
+31     0
+130    1
+138    1
+36     0
+70     1
+Name: Target, dtype: int64
+2021-10-04 11:39:14,467 —  INFO — Test Splitted Successfully
+2021-10-04 11:39:14,467 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 11:39:37,688 —  INFO — ======= Start Of Data Split =======
+2021-10-04 11:39:37,706 —  INFO — Durum Splitted Successfully. Training Set Length = 72, Test Set Length = 19
+2021-10-04 11:39:37,715 —  INFO — Bread Splitted Successfully. Training Set Length = 44, Test Set Length = 11
+2021-10-04 11:39:37,739 —  INFO — Complete Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 11:39:37,764 —  INFO — Test Splitted Successfully
+2021-10-04 11:39:37,764 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 13:18:35,691 —  INFO — ======= Start Of Data Split =======
+2021-10-04 13:18:35,708 —  INFO — Durum Splitted Successfully. Training Set Length = 72, Test Set Length = 19
+2021-10-04 13:18:35,716 —  INFO — Bread Splitted Successfully. Training Set Length = 44, Test Set Length = 11
+2021-10-04 13:18:35,741 —  INFO — Complete Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 13:18:35,766 —  INFO — Test Splitted Successfully
+2021-10-04 13:18:35,766 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 13:18:40,491 —  INFO — ======= Start Of Data Split =======
+2021-10-04 13:18:40,507 —  INFO — Durum Splitted Successfully. Training Set Length = 72, Test Set Length = 19
+2021-10-04 13:18:40,515 —  INFO — Bread Splitted Successfully. Training Set Length = 44, Test Set Length = 11
+2021-10-04 13:18:40,540 —  INFO — Complete Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 13:18:40,565 —  INFO — Test Splitted Successfully
+2021-10-04 13:18:40,565 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 14:09:47,549 —  INFO — loading category: CFP-CK1
+2021-10-04 14:09:53,406 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-10-04 14:09:53,408 —  INFO — loading category: CFP-CK2
+2021-10-04 14:09:59,865 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-10-04 14:09:59,867 —  INFO — loading category: CFP-CK3
+2021-10-04 14:10:03,130 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-10-04 14:10:03,131 —  INFO — loading category: CFP-CK4
+2021-10-04 14:10:07,324 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-10-04 14:10:07,325 —  INFO — loading category: CFP-B179-A
+2021-10-04 14:10:11,377 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-10-04 14:10:11,378 —  INFO — loading category: CFP-B179-B
+2021-10-04 14:10:21,421 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-10-04 14:10:21,422 —  INFO — loading category: CFP-B223-A
+2021-10-04 14:10:23,323 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-10-04 14:10:23,324 —  INFO — loading category: CFP-B223-B
+2021-10-04 14:10:34,583 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-10-04 14:10:34,584 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-10-04 14:10:34,584 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-10-04 14:10:34,584 —  INFO — Total Number Of Images Found: 345
+2021-10-04 14:13:44,457 —  INFO — ======= Start Of Data Split =======
+2021-10-04 14:13:44,476 —  INFO — Durum Splitted Successfully. Training Set Length = 72, Test Set Length = 19
+2021-10-04 14:13:44,485 —  INFO — Bread Splitted Successfully. Training Set Length = 44, Test Set Length = 11
+2021-10-04 14:13:44,512 —  INFO — Complete Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 14:13:44,539 —  INFO — Test Splitted Successfully
+2021-10-04 14:13:44,540 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 14:15:30,920 —  INFO — loading category: CFP-CK1
+2021-10-04 14:15:36,686 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-10-04 14:15:36,687 —  INFO — loading category: CFP-CK2
+2021-10-04 14:15:43,132 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-10-04 14:15:43,133 —  INFO — loading category: CFP-CK3
+2021-10-04 14:15:46,424 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-10-04 14:15:46,425 —  INFO — loading category: CFP-CK4
+2021-10-04 14:15:50,612 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-10-04 14:15:50,613 —  INFO — loading category: CFP-B179-A
+2021-10-04 14:15:54,658 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-10-04 14:15:54,658 —  INFO — loading category: CFP-B179-B
+2021-10-04 14:16:04,839 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-10-04 14:16:04,840 —  INFO — loading category: CFP-B223-A
+2021-10-04 14:16:06,714 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-10-04 14:16:06,715 —  INFO — loading category: CFP-B223-B
+2021-10-04 14:16:17,920 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-10-04 14:16:17,921 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-10-04 14:16:17,922 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-10-04 14:16:17,922 —  INFO — Total Number Of Images Found: 345
+2021-10-04 14:25:27,483 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 14:25:40,548 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 14:26:42,816 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 14:27:20,185 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 14:27:30,618 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 14:28:27,160 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 14:52:17,645 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 14:53:44,818 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 14:53:54,170 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 14:55:08,636 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 14:57:18,793 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 14:59:25,487 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:01:03,093 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:01:11,736 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:01:45,760 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:02:08,479 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:03:00,849 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:05:36,708 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:06:10,693 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:06:57,638 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:08:02,472 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:08:28,553 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:08:58,612 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:09:12,607 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:09:35,746 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:10:00,477 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:10:21,229 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:12:57,062 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:13:15,189 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:14:06,556 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:15:02,064 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:15:21,001 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:15:45,723 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:17:25,474 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:17:34,186 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:18:30,269 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:18:45,435 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:33:48,611 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:34:15,087 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:34:38,030 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:35:14,931 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:37:43,716 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:40:59,664 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 15:49:25,811 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 16:03:55,380 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 16:04:09,281 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 16:04:44,648 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 16:05:20,810 —  INFO — loading category: CFP-CK1
+2021-10-04 16:05:26,678 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-10-04 16:05:26,678 —  INFO — loading category: CFP-CK2
+2021-10-04 16:05:33,162 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-10-04 16:05:33,162 —  INFO — loading category: CFP-CK3
+2021-10-04 16:05:36,407 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-10-04 16:05:36,407 —  INFO — loading category: CFP-CK4
+2021-10-04 16:05:40,585 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-10-04 16:05:40,586 —  INFO — loading category: CFP-B179-A
+2021-10-04 16:05:44,587 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-10-04 16:05:44,588 —  INFO — loading category: CFP-B179-B
+2021-10-04 16:05:54,577 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-10-04 16:05:54,578 —  INFO — loading category: CFP-B223-A
+2021-10-04 16:05:56,462 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-10-04 16:05:56,463 —  INFO — loading category: CFP-B223-B
+2021-10-04 16:06:07,595 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-10-04 16:06:07,596 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-10-04 16:06:07,596 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-10-04 16:06:07,596 —  INFO — Total Number Of Images Found: 345
+2021-10-04 16:06:17,704 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 16:07:07,868 —  INFO — loading category: CFP-CK1
+2021-10-04 16:07:13,648 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-10-04 16:07:13,649 —  INFO — loading category: CFP-CK2
+2021-10-04 16:07:20,085 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-10-04 16:07:20,086 —  INFO — loading category: CFP-CK3
+2021-10-04 16:07:23,303 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-10-04 16:07:23,303 —  INFO — loading category: CFP-CK4
+2021-10-04 16:07:27,523 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-10-04 16:07:27,524 —  INFO — loading category: CFP-B179-A
+2021-10-04 16:07:31,546 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-10-04 16:07:31,547 —  INFO — loading category: CFP-B179-B
+2021-10-04 16:07:41,506 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-10-04 16:07:41,507 —  INFO — loading category: CFP-B223-A
+2021-10-04 16:07:43,390 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-10-04 16:07:43,390 —  INFO — loading category: CFP-B223-B
+2021-10-04 16:07:54,818 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-10-04 16:07:54,819 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-10-04 16:07:54,819 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-10-04 16:07:54,819 —  INFO — Total Number Of Images Found: 345
+2021-10-04 16:10:34,787 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 16:11:20,059 —  INFO — loading category: CFP-CK1
+2021-10-04 16:11:26,146 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-10-04 16:11:26,147 —  INFO — loading category: CFP-CK2
+2021-10-04 16:11:32,649 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-10-04 16:11:32,650 —  INFO — loading category: CFP-CK3
+2021-10-04 16:11:35,948 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-10-04 16:11:35,948 —  INFO — loading category: CFP-CK4
+2021-10-04 16:11:40,291 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-10-04 16:11:40,292 —  INFO — loading category: CFP-B179-A
+2021-10-04 16:11:44,451 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-10-04 16:11:44,451 —  INFO — loading category: CFP-B179-B
+2021-10-04 16:11:54,628 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-10-04 16:11:54,629 —  INFO — loading category: CFP-B223-A
+2021-10-04 16:11:56,685 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-10-04 16:11:56,686 —  INFO — loading category: CFP-B223-B
+2021-10-04 16:12:08,317 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-10-04 16:12:08,319 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-10-04 16:12:08,319 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-10-04 16:12:08,320 —  INFO — Total Number Of Images Found: 345
+2021-10-04 16:14:11,244 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 16:14:11,347 —  INFO — Completed data augmentation for durum wheat datasets. Added (55)images.
+2021-10-04 16:14:11,348 —  INFO — Starting data augmentation for bread wheat datasets
+2021-10-04 16:14:11,521 —  INFO — Completed data augmentation for bread wheat datasets. Added (91)images.
+2021-10-04 16:21:24,137 —  INFO — Flattening imgs...
+2021-10-04 18:11:11,360 —  INFO — loading category: CFP-CK1
+2021-10-04 18:11:17,597 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-10-04 18:11:17,598 —  INFO — loading category: CFP-CK2
+2021-10-04 18:11:24,459 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-10-04 18:11:24,460 —  INFO — loading category: CFP-CK3
+2021-10-04 18:11:27,803 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-10-04 18:11:27,804 —  INFO — loading category: CFP-CK4
+2021-10-04 18:11:32,087 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-10-04 18:11:32,088 —  INFO — loading category: CFP-B179-A
+2021-10-04 18:11:36,068 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-10-04 18:11:36,076 —  INFO — loading category: CFP-B179-B
+2021-10-04 18:11:46,200 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-10-04 18:11:46,201 —  INFO — loading category: CFP-B223-A
+2021-10-04 18:11:48,133 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-10-04 18:11:48,134 —  INFO — loading category: CFP-B223-B
+2021-10-04 18:11:59,383 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-10-04 18:11:59,384 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-10-04 18:11:59,384 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-10-04 18:11:59,385 —  INFO — Total Number Of Images Found: 345
+2021-10-04 18:18:01,083 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 18:18:01,183 —  INFO — Completed data augmentation for durum wheat datasets. Added (55)images.
+2021-10-04 18:18:01,184 —  INFO — Starting data augmentation for bread wheat datasets
+2021-10-04 18:18:01,361 —  INFO — Completed data augmentation for bread wheat datasets. Added (91)images.
+2021-10-04 18:18:27,363 —  INFO — Flattening images...
+2021-10-04 18:18:27,499 —  INFO — Image flattening complete!
+2021-10-04 18:21:03,639 —  INFO — Flattening images...
+2021-10-04 18:21:03,703 —  INFO — Image flattening complete!
+2021-10-04 18:21:49,910 —  INFO — Flattening images...
+2021-10-04 18:21:50,384 —  INFO — Image flattening complete!
+2021-10-04 18:24:27,978 —  INFO — Flattening images...
+2021-10-04 18:24:28,520 —  INFO — Image flattening complete!
+2021-10-04 18:25:43,498 —  INFO — Flattening images...
+2021-10-04 18:25:43,558 —  INFO — Image flattening complete!
+2021-10-04 18:33:21,677 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 18:33:21,942 —  INFO — Completed data augmentation for durum wheat datasets. Added (147)images.
+2021-10-04 18:33:21,943 —  INFO — Starting data augmentation for bread wheat datasets
+2021-10-04 18:33:22,220 —  INFO — Completed data augmentation for bread wheat datasets. Added (147)images.
+2021-10-04 18:33:27,049 —  INFO — loading category: CFP-CK1
+2021-10-04 18:33:32,922 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-10-04 18:33:32,922 —  INFO — loading category: CFP-CK2
+2021-10-04 18:33:39,516 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-10-04 18:33:39,517 —  INFO — loading category: CFP-CK3
+2021-10-04 18:33:42,905 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-10-04 18:33:42,906 —  INFO — loading category: CFP-CK4
+2021-10-04 18:33:47,252 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-10-04 18:33:47,253 —  INFO — loading category: CFP-B179-A
+2021-10-04 18:33:51,271 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-10-04 18:33:51,272 —  INFO — loading category: CFP-B179-B
+2021-10-04 18:34:01,455 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-10-04 18:34:01,456 —  INFO — loading category: CFP-B223-A
+2021-10-04 18:34:03,385 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-10-04 18:34:03,386 —  INFO — loading category: CFP-B223-B
+2021-10-04 18:34:14,666 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-10-04 18:34:14,667 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-10-04 18:34:14,668 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-10-04 18:34:14,668 —  INFO — Total Number Of Images Found: 345
+2021-10-04 18:34:19,916 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 18:34:20,017 —  INFO — Completed data augmentation for durum wheat datasets. Added (55)images.
+2021-10-04 18:34:20,018 —  INFO — Starting data augmentation for bread wheat datasets
+2021-10-04 18:34:20,191 —  INFO — Completed data augmentation for bread wheat datasets. Added (91)images.
+2021-10-04 18:34:25,057 —  INFO — Flattening images...
+2021-10-04 18:34:25,115 —  INFO — Image flattening complete!
+2021-10-04 18:49:32,542 —  INFO — Flattening images...
+2021-10-04 18:49:32,596 —  INFO — Image flattening complete!
+2021-10-04 18:49:46,982 —  INFO — ======= Start Of Data Split =======
+2021-10-04 18:49:47,015 —  INFO — Durum Splitted Successfully. Training Set Length = 117, Test Set Length = 30
+2021-10-04 18:49:47,049 —  INFO — Bread Splitted Successfully. Training Set Length = 117, Test Set Length = 30
+2021-10-04 18:49:47,105 —  INFO — Complete Splitted Successfully. Training Set Length = 235, Test Set Length = 59
+2021-10-04 18:49:47,168 —  INFO — Test Splitted Successfully. Training Set Length = NA, Test Set Length = 235
+2021-10-04 18:49:47,169 —  INFO — Test Splitted Successfully
+2021-10-04 18:49:47,169 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 18:57:01,833 —  INFO — loading category: CFP-CK1
+2021-10-04 18:57:07,770 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-10-04 18:57:07,772 —  INFO — loading category: CFP-CK2
+2021-10-04 18:57:14,232 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-10-04 18:57:14,233 —  INFO — loading category: CFP-CK3
+2021-10-04 18:57:17,446 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-10-04 18:57:17,447 —  INFO — loading category: CFP-CK4
+2021-10-04 18:57:21,770 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-10-04 18:57:21,771 —  INFO — loading category: CFP-B179-A
+2021-10-04 18:57:25,814 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-10-04 18:57:25,814 —  INFO — loading category: CFP-B179-B
+2021-10-04 18:57:35,769 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-10-04 18:57:35,770 —  INFO — loading category: CFP-B223-A
+2021-10-04 18:57:37,711 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-10-04 18:57:37,712 —  INFO — loading category: CFP-B223-B
+2021-10-04 18:57:48,675 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-10-04 18:57:48,676 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-10-04 18:57:48,677 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-10-04 18:57:48,677 —  INFO — Total Number Of Images Found: 345
+2021-10-04 18:57:53,694 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 18:57:53,798 —  INFO — Completed data augmentation for durum wheat datasets. Added (55)images.
+2021-10-04 18:57:53,798 —  INFO — Starting data augmentation for bread wheat datasets
+2021-10-04 18:57:53,965 —  INFO — Completed data augmentation for bread wheat datasets. Added (91)images.
+2021-10-04 18:58:00,719 —  INFO — Flattening images...
+2021-10-04 18:58:18,628 —  INFO — Flattening images...
+2021-10-04 18:58:18,831 —  INFO — Image flattening complete!
+2021-10-04 18:58:26,953 —  INFO — ======= Start Of Data Split =======
+2021-10-04 18:58:26,982 —  INFO — Durum Splitted Successfully. Training Set Length = 117, Test Set Length = 30
+2021-10-04 18:58:27,009 —  INFO — Bread Splitted Successfully. Training Set Length = 117, Test Set Length = 30
+2021-10-04 18:58:27,011 —  INFO — Complete Splitted Successfully. Training Set Length = 235, Test Set Length = 59
+2021-10-04 18:58:27,013 —  INFO — Test Splitted Successfully. Training Set Length = NA, Test Set Length = 235
+2021-10-04 18:58:27,013 —  INFO — Test Splitted Successfully
+2021-10-04 18:58:27,014 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 18:59:05,741 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 18:59:06,020 —  INFO — Completed data augmentation for durum wheat datasets. Added (147)images.
+2021-10-04 18:59:06,021 —  INFO — Starting data augmentation for bread wheat datasets
+2021-10-04 18:59:06,294 —  INFO — Completed data augmentation for bread wheat datasets. Added (147)images.
+2021-10-04 18:59:11,063 —  INFO — loading category: CFP-CK1
+2021-10-04 18:59:16,830 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-10-04 18:59:16,831 —  INFO — loading category: CFP-CK2
+2021-10-04 18:59:23,260 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-10-04 18:59:23,261 —  INFO — loading category: CFP-CK3
+2021-10-04 18:59:26,479 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-10-04 18:59:26,479 —  INFO — loading category: CFP-CK4
+2021-10-04 18:59:30,642 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-10-04 18:59:30,644 —  INFO — loading category: CFP-B179-A
+2021-10-04 18:59:34,590 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-10-04 18:59:34,591 —  INFO — loading category: CFP-B179-B
+2021-10-04 18:59:44,543 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-10-04 18:59:44,544 —  INFO — loading category: CFP-B223-A
+2021-10-04 18:59:46,457 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-10-04 18:59:46,458 —  INFO — loading category: CFP-B223-B
+2021-10-04 18:59:57,459 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-10-04 18:59:57,460 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-10-04 18:59:57,461 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-10-04 18:59:57,461 —  INFO — Total Number Of Images Found: 345
+2021-10-04 19:00:00,544 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 19:00:00,647 —  INFO — Completed data augmentation for durum wheat datasets. Added (55)images.
+2021-10-04 19:00:00,648 —  INFO — Starting data augmentation for bread wheat datasets
+2021-10-04 19:00:00,818 —  INFO — Completed data augmentation for bread wheat datasets. Added (91)images.
+2021-10-04 19:00:05,154 —  INFO — Flattening images...
+2021-10-04 19:00:05,374 —  INFO — Image flattening complete!
+2021-10-04 19:00:22,859 —  INFO — ======= Start Of Data Split =======
+2021-10-04 19:00:22,889 —  INFO — Durum Splitted Successfully. Training Set Length = 117, Test Set Length = 30
+2021-10-04 19:00:22,919 —  INFO — Bread Splitted Successfully. Training Set Length = 117, Test Set Length = 30
+2021-10-04 19:00:22,922 —  INFO — Complete Splitted Successfully. Training Set Length = 235, Test Set Length = 59
+2021-10-04 19:00:22,923 —  INFO — Test Splitted Successfully. Training Set Length = NA, Test Set Length = 235
+2021-10-04 19:00:22,924 —  INFO — Test Splitted Successfully
+2021-10-04 19:00:22,924 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 19:02:48,473 —  INFO — loading category: CFP-CK1
+2021-10-04 19:02:54,245 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-10-04 19:02:54,246 —  INFO — loading category: CFP-CK2
+2021-10-04 19:03:00,704 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-10-04 19:03:00,705 —  INFO — loading category: CFP-CK3
+2021-10-04 19:03:03,949 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-10-04 19:03:03,950 —  INFO — loading category: CFP-CK4
+2021-10-04 19:03:08,174 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-10-04 19:03:08,175 —  INFO — loading category: CFP-B179-A
+2021-10-04 19:03:12,071 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-10-04 19:03:12,072 —  INFO — loading category: CFP-B179-B
+2021-10-04 19:03:22,188 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-10-04 19:03:22,189 —  INFO — loading category: CFP-B223-A
+2021-10-04 19:03:24,063 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-10-04 19:03:24,064 —  INFO — loading category: CFP-B223-B
+2021-10-04 19:03:35,055 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-10-04 19:03:35,056 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-10-04 19:03:35,056 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-10-04 19:03:35,056 —  INFO — Total Number Of Images Found: 345
+2021-10-04 19:03:35,064 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 19:03:35,173 —  INFO — Completed data augmentation for durum wheat datasets. Added (55)images.
+2021-10-04 19:03:35,173 —  INFO — Starting data augmentation for bread wheat datasets
+2021-10-04 19:03:35,347 —  INFO — Completed data augmentation for bread wheat datasets. Added (91)images.
+2021-10-04 19:03:35,352 —  INFO — Flattening images...
+2021-10-04 19:03:35,479 —  INFO — Image flattening complete!
+2021-10-04 19:03:52,779 —  INFO — ======= Start Of Data Split =======
+2021-10-04 19:03:52,800 —  INFO — Durum Splitted Successfully. Training Set Length = 117, Test Set Length = 30
+2021-10-04 19:03:52,820 —  INFO — Bread Splitted Successfully. Training Set Length = 117, Test Set Length = 30
+2021-10-04 19:03:52,822 —  INFO — Complete Splitted Successfully. Training Set Length = 235, Test Set Length = 59
+2021-10-04 19:03:52,824 —  INFO — Test Splitted Successfully. Training Set Length = NA, Test Set Length = 235
+2021-10-04 19:03:52,825 —  INFO — Test Splitted Successfully
+2021-10-04 19:03:52,825 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 19:06:03,604 —  INFO — loading category: CFP-CK1
+2021-10-04 19:06:09,586 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-10-04 19:06:09,587 —  INFO — loading category: CFP-CK2
+2021-10-04 19:06:16,088 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-10-04 19:06:16,089 —  INFO — loading category: CFP-CK3
+2021-10-04 19:06:19,292 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-10-04 19:06:19,293 —  INFO — loading category: CFP-CK4
+2021-10-04 19:06:23,429 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-10-04 19:06:23,430 —  INFO — loading category: CFP-B179-A
+2021-10-04 19:06:27,331 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-10-04 19:06:27,332 —  INFO — loading category: CFP-B179-B
+2021-10-04 19:06:37,235 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-10-04 19:06:37,236 —  INFO — loading category: CFP-B223-A
+2021-10-04 19:06:39,102 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-10-04 19:06:39,102 —  INFO — loading category: CFP-B223-B
+2021-10-04 19:06:50,288 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-10-04 19:06:50,289 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-10-04 19:06:50,289 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-10-04 19:06:50,290 —  INFO — Total Number Of Images Found: 345
+2021-10-04 19:06:50,349 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 19:06:50,451 —  INFO — Completed data augmentation for durum wheat datasets. Added (55)images.
+2021-10-04 19:06:50,451 —  INFO — Starting data augmentation for bread wheat datasets
+2021-10-04 19:06:50,614 —  INFO — Completed data augmentation for bread wheat datasets. Added (91)images.
+2021-10-04 19:06:50,618 —  INFO — Flattening images...
+2021-10-04 19:06:50,737 —  INFO — Image flattening complete!
+2021-10-04 19:06:50,961 —  INFO — ======= Start Of Data Split =======
+2021-10-04 19:06:50,982 —  INFO — Durum Splitted Successfully. Training Set Length = 117, Test Set Length = 30
+2021-10-04 19:06:51,003 —  INFO — Bread Splitted Successfully. Training Set Length = 117, Test Set Length = 30
+2021-10-04 19:06:51,006 —  INFO — Complete Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 19:06:51,007 —  INFO — Test Splitted Successfully. Training Set Length = NA, Test Set Length = 116
+2021-10-04 19:06:51,007 —  INFO — Test Splitted Successfully
+2021-10-04 19:06:51,008 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 19:07:59,147 —  INFO — loading category: CFP-CK1
+2021-10-04 19:08:04,893 —  INFO — loaded category: CFP-CK1 successfully, found 43 images
+2021-10-04 19:08:04,894 —  INFO — loading category: CFP-CK2
+2021-10-04 19:08:11,352 —  INFO — loaded category: CFP-CK2 successfully, found 48 images
+2021-10-04 19:08:11,353 —  INFO — loading category: CFP-CK3
+2021-10-04 19:08:14,601 —  INFO — loaded category: CFP-CK3 successfully, found 24 images
+2021-10-04 19:08:14,602 —  INFO — loading category: CFP-CK4
+2021-10-04 19:08:18,748 —  INFO — loaded category: CFP-CK4 successfully, found 31 images
+2021-10-04 19:08:18,749 —  INFO — loading category: CFP-B179-A
+2021-10-04 19:08:22,660 —  INFO — loaded category: CFP-B179-A successfully, found 29 images
+2021-10-04 19:08:22,661 —  INFO — loading category: CFP-B179-B
+2021-10-04 19:08:32,581 —  INFO — loaded category: CFP-B179-B successfully, found 74 images
+2021-10-04 19:08:32,582 —  INFO — loading category: CFP-B223-A
+2021-10-04 19:08:34,480 —  INFO — loaded category: CFP-B223-A successfully, found 14 images
+2021-10-04 19:08:34,480 —  INFO — loading category: CFP-B223-B
+2021-10-04 19:08:45,396 —  INFO — loaded category: CFP-B223-B successfully, found 82 images
+2021-10-04 19:08:45,397 —  INFO — Number Of Healthy Kernel Images Found: 235
+2021-10-04 19:08:45,397 —  INFO — Number Of Infected Kernel Images Found: 110
+2021-10-04 19:08:45,397 —  INFO — Total Number Of Images Found: 345
+2021-10-04 19:08:45,452 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 19:08:45,550 —  INFO — Completed data augmentation for durum wheat datasets. Added (55)images.
+2021-10-04 19:08:45,551 —  INFO — Starting data augmentation for bread wheat datasets
+2021-10-04 19:08:45,710 —  INFO — Completed data augmentation for bread wheat datasets. Added (91)images.
+2021-10-04 19:08:45,715 —  INFO — Flattening images...
+2021-10-04 19:08:45,825 —  INFO — Image flattening complete!
+2021-10-04 19:08:46,036 —  INFO — ======= Start Of Data Split =======
+2021-10-04 19:08:46,057 —  INFO — Durum Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 19:08:46,078 —  INFO — Bread Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 19:08:46,080 —  INFO — Complete Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 19:08:46,082 —  INFO — Test Splitted Successfully. Training Set Length = NA, Test Set Length = 116
+2021-10-04 19:08:46,082 —  INFO — Test Splitted Successfully
+2021-10-04 19:08:46,082 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 19:08:46,098 —  INFO — ======= Start Of Logistic Regression Model Generation =======
+2021-10-04 19:08:46,098 —  INFO — Starting to train LogR model...
+2021-10-04 19:09:09,886 —  INFO — The Durum model trained in: 23.787092685699463 seconds
+2021-10-04 19:09:09,888 —  INFO — Starting to train LogR model...
+2021-10-04 19:09:43,074 —  INFO — The Bread model trained in: 33.185791015625 seconds
+2021-10-04 19:09:43,076 —  INFO — Starting to train LogR model...
+2021-10-04 19:15:28,119 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 19:15:28,227 —  INFO — Completed data augmentation for durum wheat datasets. Added (55)images.
+2021-10-04 19:15:28,227 —  INFO — Starting data augmentation for bread wheat datasets
+2021-10-04 19:15:28,396 —  INFO — Completed data augmentation for bread wheat datasets. Added (91)images.
+2021-10-04 19:15:30,503 —  INFO — Flattening images...
+2021-10-04 19:15:30,623 —  INFO — Image flattening complete!
+2021-10-04 19:15:33,671 —  INFO — Starting data augmentation for durum wheat datasets
+2021-10-04 19:15:33,768 —  INFO — Completed data augmentation for durum wheat datasets. Added (55)images.
+2021-10-04 19:15:33,769 —  INFO — Starting data augmentation for bread wheat datasets
+2021-10-04 19:15:33,926 —  INFO — Completed data augmentation for bread wheat datasets. Added (91)images.
+2021-10-04 19:17:23,297 —  INFO — Flattening images...
+2021-10-04 19:17:23,386 —  INFO — Image flattening complete!
+2021-10-04 19:17:30,154 —  INFO — ======= Start Of Data Split =======
+2021-10-04 19:17:30,187 —  INFO — Durum Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 19:17:30,213 —  INFO — Bread Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 19:17:30,234 —  INFO — Complete Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 19:17:30,261 —  INFO — Test Splitted Successfully. Training Set Length = NA, Test Set Length = 116
+2021-10-04 19:17:30,262 —  INFO — Test Splitted Successfully
+2021-10-04 19:17:30,262 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 19:17:45,669 —  INFO — ======= Start Of Data Split =======
+2021-10-04 19:17:45,698 —  INFO — Durum Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 19:17:45,725 —  INFO — Bread Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 19:17:45,745 —  INFO — Complete Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 19:17:45,763 —  INFO — Test Splitted Successfully. Training Set Length = NA, Test Set Length = 116
+2021-10-04 19:17:45,764 —  INFO — Test Splitted Successfully
+2021-10-04 19:17:45,764 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 19:17:54,166 —  INFO — ======= Start Of Data Split =======
+2021-10-04 19:17:54,191 —  INFO — Durum Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 19:17:54,215 —  INFO — Bread Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 19:17:54,239 —  INFO — Complete Splitted Successfully. Training Set Length = 116, Test Set Length = 30
+2021-10-04 19:17:54,258 —  INFO — Test Splitted Successfully. Training Set Length = NA, Test Set Length = 116
+2021-10-04 19:17:54,259 —  INFO — Test Splitted Successfully
+2021-10-04 19:17:54,259 —  INFO — ======= End Of Data Split =======
+
+2021-10-04 19:18:01,788 —  INFO — ======= Start Of Logistic Regression Model Generation =======
+2021-10-04 19:18:01,790 —  INFO — Starting to train LogR model...
+2021-10-04 19:18:29,989 —  INFO — The Durum model trained in: 28.198923110961914 seconds
+2021-10-04 19:18:29,994 —  INFO — Starting to train LogR model...
+2021-10-04 19:18:59,729 —  INFO — The Bread model trained in: 29.733731031417847 seconds
+2021-10-04 19:18:59,734 —  INFO — Starting to train LogR model...
+2021-10-04 19:19:31,600 —  INFO — The Complete model trained in: 31.86562752723694 seconds
+2021-10-04 19:19:44,319 —  INFO — ======= Start Of SVM Model Generation =======
+2021-10-04 19:19:44,321 —  INFO — Starting to train SVM model...
+2021-10-04 19:20:08,040 —  INFO — The Durum model trained in: 23.717856407165527 seconds
+2021-10-04 19:20:08,045 —  INFO — Starting to train SVM model...
+2021-10-04 19:20:29,654 —  INFO — The Bread model trained in: 21.607354164123535 seconds
+2021-10-04 19:20:29,655 —  INFO — Starting to train SVM model...
+2021-10-04 19:20:52,342 —  INFO — The Complete model trained in: 22.68584370613098 seconds
+2021-10-04 19:20:52,352 —  INFO — ======= Start Of K Nearest Neighbors Model Generation =======
+2021-10-04 19:20:52,354 —  INFO — Starting to train KNN model...
+2021-10-04 19:20:53,535 —  INFO — The Durum model trained in: 1.179476022720337 seconds
+2021-10-04 19:20:53,535 —  INFO — Starting to train KNN model...
+2021-10-04 19:20:54,677 —  INFO — The Bread model trained in: 1.141191005706787 seconds
+2021-10-04 19:20:54,678 —  INFO — Starting to train KNN model...
+2021-10-04 19:20:55,810 —  INFO — The Complete model trained in: 1.1314339637756348 seconds
+2021-10-04 19:20:55,815 —  INFO — ======= Start Of Random Forest Model Generation =======
+2021-10-04 19:20:55,816 —  INFO — Starting to train RanF model...
+2021-10-04 19:20:58,005 —  INFO — The Durum model trained in: 2.1885879039764404 seconds
+2021-10-04 19:20:58,006 —  INFO — Starting to train RanF model...
+2021-10-04 19:21:00,094 —  INFO — The Bread model trained in: 2.0875144004821777 seconds
+2021-10-04 19:21:00,095 —  INFO — Starting to train RanF model...
+2021-10-04 19:21:02,231 —  INFO — The Complete model trained in: 2.1354830265045166 seconds
