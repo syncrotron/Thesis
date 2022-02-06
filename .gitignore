@@ -147,3 +147,4 @@ commands.sh
 *.zip
 *.npy
 *.pkl
+*.npz
