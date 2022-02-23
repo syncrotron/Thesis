@@ -1,3 +1,3 @@
-# An experimental [Linear Descriminant Analysis](https://en.wikipedia.org/wiki/Linear_discriminant_analysis) script for classifying images of wheat afflicted by fusarium blight.
+All relevant work included associated to the Thesis of Samuel Horovatin. Split into two main groupings of work; the first is assoicated to lentil pattern classification, and the second being associated to my fusarium head blight classification.
 
 
